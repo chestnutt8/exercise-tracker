@@ -73,7 +73,7 @@ exercises.forEach(ex => {
 const d = document.createElement('div');
 d.className = 'exercise';
 
-```
+
 d.innerHTML = `
   <div style="display:flex;justify-content:space-between;align-items:center;">
     <h3>${ex}</h3>
@@ -96,7 +96,7 @@ d.innerHTML = `
 `;
 
 root.appendChild(d);
-```
+
 
 });
 
@@ -117,14 +117,14 @@ Object.keys(logs)
 .forEach(date => {
 html += `<tr><td>${date}</td>`;
 
-```
+
   exercises.forEach(e => {
     html += `<td>${total(date, e)}</td>`;
   });
 
   html += '</tr>';
 });
-```
+
 
 html += '</table>';
 
