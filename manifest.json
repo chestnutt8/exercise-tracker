@@ -1,0 +1,8 @@
+{
+"name":"Exercise Tracker",
+"short_name":"Tracker",
+"start_url":"./",
+"display":"standalone",
+"background_color":"#ffffff",
+"theme_color":"#ffffff"
+}
